@@ -1,2 +1,3 @@
+import numpy as np
 def f(x,y):
-  return x*y+100
+  return np.array([x,y])
